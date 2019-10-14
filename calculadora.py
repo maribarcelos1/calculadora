@@ -1,12 +1,15 @@
-num1 = 1
-num2 = 2
-print ("Soma = ", num1 + num2)
-
-num5 = 5
-num6 = 6
-print ("Multiplicacao = ", num5 * num6)
-
-num3 = 3
-num4 = 4
-print ("Subtracao = ", num4 - num3)
+" ** Código melhorado ** "
+print('Ola usuario! Seja bem vindo!')
+print('Vamos começar inserindo dois numeros...')
+num1 = int(input('Digite o primeiro numero:'))
+num2 = int(input('Digite o segundo numero:'))
+print ("A Soma destes numeros são: ", num1 + num2)
+print('Vamos praticar a Multiplicação:')
+num5 = int(input('Digite o primeiro numero:'))
+num6 = int(input('Digite o segundo numero:'))
+print ("A Multiplicacao é: ", num5 * num6)
+print('Vamos praticar a Subtração:')
+num3 = int(input('Digite o primeiro numero:'))
+num4 = int(input('Digite o segundo numero:'))
+print ("Subtracao é ", num4 - num3)
 
